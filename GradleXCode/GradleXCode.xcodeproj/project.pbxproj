@@ -16,6 +16,7 @@
 		6A131F8617B24344003E5388 /* GradleXCodeFailingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A131F8517B24344003E5388 /* GradleXCodeFailingTests.m */; };
 		6A3BC11317BE2E7800E4ACD7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A3BC11217BE2E7800E4ACD7 /* icon.png */; };
 		6A3BC11517BE2E7D00E4ACD7 /* icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A3BC11417BE2E7D00E4ACD7 /* icon_retina.png */; };
+		9347CF971816B2AA006E0D47 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9347CF961816B2AA006E0D47 /* Default-568h@2x.png */; };
 		D382B71614703FE500E9CC9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D382B71514703FE500E9CC9B /* UIKit.framework */; };
 		D382B71814703FE500E9CC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D382B71714703FE500E9CC9B /* Foundation.framework */; };
 		D382B71A14703FE500E9CC9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D382B71914703FE500E9CC9B /* CoreGraphics.framework */; };
@@ -62,6 +63,7 @@
 		6A131F8717B24344003E5388 /* GradleXCodeFailingTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GradleXCodeFailingTests-Prefix.pch"; sourceTree = "<group>"; };
 		6A3BC11217BE2E7800E4ACD7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		6A3BC11417BE2E7D00E4ACD7 /* icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_retina.png; sourceTree = "<group>"; };
+		9347CF961816B2AA006E0D47 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D382B71114703FE500E9CC9B /* GradleXCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradleXCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D382B71514703FE500E9CC9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D382B71714703FE500E9CC9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -150,6 +152,7 @@
 		D382B70614703FE500E9CC9B = {
 			isa = PBXGroup;
 			children = (
+				9347CF961816B2AA006E0D47 /* Default-568h@2x.png */,
 				6A3BC11417BE2E7D00E4ACD7 /* icon_retina.png */,
 				6A3BC11217BE2E7800E4ACD7 /* icon.png */,
 				D382B71B14703FE500E9CC9B /* GradleXCode */,
@@ -330,6 +333,7 @@
 				D382B72C14703FE500E9CC9B /* MainStoryboard_iPad.storyboard in Resources */,
 				6A3BC11317BE2E7800E4ACD7 /* icon.png in Resources */,
 				6A3BC11517BE2E7D00E4ACD7 /* icon_retina.png in Resources */,
+				9347CF971816B2AA006E0D47 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,10 +574,12 @@
 		6AE87B3C1782D9D300571959 /* Another Configuration */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C04ADEC5-A96C-47A1-8E77-269460C3716D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Another Configuration";
@@ -665,10 +671,12 @@
 		D382B74814703FE500E9CC9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "51E5D24B-1342-4497-80E8-0C6A6DE3B25A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -681,7 +689,7 @@
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "C04ADEC5-A96C-47A1-8E77-269460C3716D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -754,10 +762,12 @@
 		D382B75214704A4700E9CC9B /* BasicConfiguration */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C04ADEC5-A96C-47A1-8E77-269460C3716D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = BasicConfiguration;
