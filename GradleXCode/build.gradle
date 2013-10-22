@@ -1,5 +1,19 @@
 buildscript {
-    apply from: "$flowProjectPath/flow_in_classpath.gradle"
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven{
+            url 'https://oss.sonatype.org/content/repositories/snapshots/'
+        }
+    }
+    dependencies {
+        classpath('com.apphance.flow:apphance-flow:1.0.7')
+    }
 }
 
 apply plugin: 'apphance-flow'
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.7'
+}
