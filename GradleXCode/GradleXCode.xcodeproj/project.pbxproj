@@ -579,7 +579,7 @@
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "C04ADEC5-A96C-47A1-8E77-269460C3716D";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Another Configuration";
@@ -676,7 +676,7 @@
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "51E5D24B-1342-4497-80E8-0C6A6DE3B25A";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -689,7 +689,7 @@
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "C04ADEC5-A96C-47A1-8E77-269460C3716D";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -767,7 +767,7 @@
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "C04ADEC5-A96C-47A1-8E77-269460C3716D";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = BasicConfiguration;
