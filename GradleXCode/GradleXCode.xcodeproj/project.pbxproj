@@ -579,13 +579,13 @@
 		6AE87B3C1782D9D300571959 /* Another Configuration */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Polidea (MT2B94Q7N6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Polidea (MT2B94Q7N6)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "D42B17C3-F8D1-4AF0-9D85-D22DB3572254";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Another Configuration";
@@ -683,7 +683,7 @@
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "C422A790-147A-409D-872F-6C9624CF707D";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -691,13 +691,13 @@
 		D382B74914703FE500E9CC9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Polidea (MT2B94Q7N6)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "D42B17C3-F8D1-4AF0-9D85-D22DB3572254";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -770,13 +770,13 @@
 		D382B75214704A4700E9CC9B /* BasicConfiguration */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Polidea (MT2B94Q7N6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Polidea (MT2B94Q7N6)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradleXCode/GradleXCode-Prefix.pch";
 				INFOPLIST_FILE = "GradleXCode/GradleXCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "D42B17C3-F8D1-4AF0-9D85-D22DB3572254";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = BasicConfiguration;
